@@ -1,6 +1,6 @@
 ## Corona Tracker
 
-This is an React Application for the purpose of Corona Virus Prevention Awareness, Tracking, Statistics and News around the Globe using open source APIs for the real time data. ([thevirustracker.com](https://thevirustracker.com/api))
+This is an React Application for the purpose of Corona Virus Prevention Awareness, Tracking, Statistics and News around the Globe using open source APIs for real time data. ([thevirustracker.com](https://thevirustracker.com/api))
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
