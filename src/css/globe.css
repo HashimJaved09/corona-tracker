@@ -1,0 +1,182 @@
+.outCircle {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/globe.png");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-color: #282c34;
+    margin: 50px;
+    /*left: 270px;*/
+    /*goes viral*/
+    position: absolute;
+    /*top: 50px;*/
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+.App-header {
+  min-height: 100vh;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: flex-start;*/
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.rotate {
+    width: 100%;
+    height: 100%;
+    position: absolute;  /* add this */
+}
+.counterrotate {
+    width: 50px;
+    height: 50px;
+}
+
+.inner {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    /*background: red;*/
+    /*border-radius: 100px;*/
+    /*background-color: red;*/
+    display: table-cell;
+}
+.anim1 {
+    animation: circle1 10s infinite linear;
+}
+.anim1 .counterrotate {
+    animation: ccircle1 10s infinite linear;
+}
+.anim2 {
+    animation: circle2 10s infinite linear;
+}
+.anim2 .counterrotate {
+    animation: ccircle2 10s infinite linear;
+}
+.anim3 {
+    animation: circle3 10s infinite linear;
+}
+.anim3 .counterrotate {
+    animation: ccircle3 10s infinite linear;
+}
+.anim4 {
+    animation: circle4 10s infinite linear;
+}
+.anim4 .counterrotate {
+    animation: ccircle4 10s infinite linear;
+}
+.anim5 {
+    animation: circle5 10s infinite linear;
+}
+.anim5 .counterrotate {
+    animation: ccircle5 10s infinite linear;
+}
+.anim6 {
+    animation: circle6 10s infinite linear;
+}
+.anim6 .counterrotate {
+    animation: ccircle6 10s infinite linear;
+}
+@keyframes circle1 {
+    from {transform: rotateZ(0deg)}
+    to {transform: rotateZ(360deg)}
+}
+@keyframes ccircle1 {
+    from {transform: rotateZ(0deg)}
+    to {transform: rotateZ(-360deg)}
+}
+@keyframes circle2 {
+    from {transform: rotateZ(60deg)}
+    to {transform: rotateZ(420deg)}
+}
+@keyframes ccircle2 {
+    from {transform: rotateZ(-60deg)}
+    to {transform: rotateZ(-420deg)}
+}
+@keyframes circle3 {
+    from {transform: rotateZ(120deg)}
+    to {transform: rotateZ(480deg)}
+}
+@keyframes ccircle3 {
+    from {transform: rotateZ(-120deg)}
+    to {transform: rotateZ(-480deg)}
+}
+@keyframes circle4 {
+    from {transform: rotateZ(180deg)}
+    to {transform: rotateZ(540deg)}
+}
+@keyframes ccircle4 {
+    from {transform: rotateZ(-180deg)}
+    to {transform: rotateZ(-540deg)}
+}
+@keyframes circle5 {
+    from {transform: rotateZ(240deg)}
+    to {transform: rotateZ(600deg)}
+}
+@keyframes ccircle5 {
+    from {transform: rotateZ(-240deg)}
+    to {transform: rotateZ(-600deg)}
+}
+@keyframes circle6 {
+    from {transform: rotateZ(300deg)}
+    to {transform: rotateZ(660deg)}
+}
+@keyframes ccircle6 {
+    from {transform: rotateZ(-300deg)}
+    to {transform: rotateZ(-660deg)}
+}
+
+
+
+
+
+
+
+
+/*@keyframes ccircle1 {*/
+/*    from {transform: rotateZ(0deg)}*/
+/*    to {transform: rotateZ(-360deg)}*/
+/*}*/
+/*@keyframes circle2 {*/
+/*    from {transform: rotateZ(72deg)}*/
+/*    to {transform: rotateZ(432deg)}*/
+/*}*/
+/*@keyframes ccircle2 {*/
+/*    from {transform: rotateZ(-72deg)}*/
+/*    to {transform: rotateZ(-432deg)}*/
+/*}*/
+/*@keyframes circle3 {*/
+/*    from {transform: rotateZ(144deg)}*/
+/*    to {transform: rotateZ(504deg)}*/
+/*}*/
+/*@keyframes ccircle3 {*/
+/*    from {transform: rotateZ(-144deg)}*/
+/*    to {transform: rotateZ(-504deg)}*/
+/*}*/
+/*@keyframes circle4 {*/
+/*    from {transform: rotateZ(216deg)}*/
+/*    to {transform: rotateZ(576deg)}*/
+/*}*/
+/*@keyframes ccircle4 {*/
+/*    from {transform: rotateZ(-216deg)}*/
+/*    to {transform: rotateZ(-576deg)}*/
+/*}*/
+/*@keyframes circle5 {*/
+/*    from {transform: rotateZ(288deg)}*/
+/*    to {transform: rotateZ(648deg)}*/
+/*}*/
+/*@keyframes ccircle5 {*/
+/*    from {transform: rotateZ(-288deg)}*/
+/*    to {transform: rotateZ(-648deg)}*/
+/*}*/
+/*@keyframes circle6 {*/
+/*    from {transform: rotateZ(360deg)}*/
+/*    to {transform: rotateZ(720deg)}*/
+/*}*/
+/*@keyframes ccircle6 {*/
+/*    from {transform: rotateZ(-360deg)}*/
+/*    to {transform: rotateZ(-720deg)}*/
+/*}*/
